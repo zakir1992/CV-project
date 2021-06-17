@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #E6F9F5;
+}
+
+ /*---------
+ Header Start
+ --------*/
+.header{
+
+}
+.container{
+  max-width: 1000px;
+  background-color: #c0f1e8;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container .profile_image{
+  width: 90px;
+  height: 110px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  float: left;
+ 
+}
+.profile_bio{
+  float: left;
+  padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+  color:#11999e ;
+}
+
+.header_contact{
+  float: right;
+  padding: 30px;
+  line-break:50%;
+}
+
+.header_contact p{
+  margin: 10px 0;
+}
+
+.header_contact a{
+  text-decoration: none; 
+  color:#11999e ;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: 1.5px;
+  position: relative;
+  transition: 0.5s;
+ 
+  
+}
+
+.header_contact a::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: all 0.5s linear;
+ 
+}
+.header_contact a::before{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  transition: all 0.5s linear;
+ 
+}
+
+.header_contact a:hover{
+  color: #008;
+  
+}
+
+.header_contact a:hover::after{
+  width: 50%;
+  background-color: #ff0000;
+}
+
+.header_contact a:hover::before{
+  width: 50%;
+  background-color: #ff0000;
+}
+
+/*---------------
+ Clear Div
+ --------------*/
+.div_clear{
+  clear: both;
+}
+hr{
+  border: 3px dotted #000;
+  margin: 30px auto;
+  border-bottom: none;
+}
+
+
+
+/*------------
+Header End
+-------------*/
+
+/*------------
+  Main Start
+-------------*/
+
+.personel_section{
+
+}
+
+.content{
+  margin-bottom: 30px;
+}
+
+.left_div{
+  float: left;
+  width: 30%;
+
+}
+
+.right_div{
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+
+.right_div p{
+
+  color: #11999e;
+  font-size: 16px;
+  
+}
+
+.div_clear{
+  clear: both;
+}
+
+.common_hr{
+  border: 1px solid #000;
+  border-bottom: none;
+  margin: 20px; 
+}
+
+
+/*------------------------------------------
+Education section
+------------------------------------------*/
+.right_div .edu_tamplat {
+ 
+  display: ;
+ 
+  
+}
+.right_templat, .middel_templat, .last_tamplat{
+  margin-right: 53px;
+  float: left;
+  padding: 5px 0;
+}
+
+/*-------------------------------------------
+Footer Section
+--------------------------------------------*/
+
+.bootom_container{
+  background-color: rgb(2, 39, 39);
+   text-align: center;
+   padding: 20px;
+}
+
+.bootom_container a{
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+.bootom_container a:hover{
+  text-transform: uppercase;
+  color: #ff0000;
+}
+.bootom_container p{
+  color: #fff;
+  margin-top: 20px;
+  
+}
